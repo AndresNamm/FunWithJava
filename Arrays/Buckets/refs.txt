@@ -1,0 +1,10 @@
+
+https://stackoverflow.com/questions/40471/differences-between-hashmap-and-hashtable HASHTABLE - MULTITHREAD  HASHMAP - NOT SYNCHRONIZED, FASTER  // HASHTABLE IS OBSOLETE 
+
+MAIN THINGS TO CONTINUE ON WITH TOMORROW !!
+
+https://docs.oracle.com/javase/8/docs/api/java/util/Map.html  / MAP IS INTERFACE 
+https://examples.javacodegeeks.com/java-basics/java-map-example/
+http://www.java67.com/2012/08/difference-between-hashmap-and-concurrentHashMap-java-collection.html  HASHMAP CS CONCURRENTHASHDMAP -    GOOD COMPARISON , I SHOUL ONLY BE CONCESRNED ABOUT MAPS THEN ..
+
+ 

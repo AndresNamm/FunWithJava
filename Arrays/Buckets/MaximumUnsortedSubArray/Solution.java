@@ -27,10 +27,13 @@ public class Solution {
             maxUnsort=Math.max(maxUnsort, A.get(i));
             minUnsort=Math.min(minUnsort, A.get(i));
         }
-        
+       
+		// Find the actual position of the largest and smallest elements. 
+	   
         int ansL=0;
         int ansR=A.size()-1;
-        for(int i = 0; i<mL; i++){
+       		
+	   for(int i = 0; i<mL; i++){
             if(A.get(i)<=minUnsort){
                 ansL++;
             }
