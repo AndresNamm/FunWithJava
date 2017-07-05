@@ -7,6 +7,8 @@
 4. [Lambdas](http://tutorials.jenkov.com/java/lambda-expressions.html)
     + [Why to use them](https://dzone.com/articles/why-we-need-lambda-expressions)
 
+5. [Access Modifiers](http://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)
+
 
 
 
