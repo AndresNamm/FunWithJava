@@ -24,10 +24,17 @@ interface LetsDoAnotherContract<T>{
 abstract class AbstractExamplesParent implements LetsDoAnotherContract<String>,LetsDoAContract{
     // CONTROLLING ACCESS: http://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html
     protected String name;
+    private String mySecret;
     AbstractExamplesParent(){
         this.name="Jou";
         this.abstractPrivateString();
     }
+
+    public void changePrintMy(String l){
+        this.mySecret=l;
+        System.out.println(this.mySecret);
+    }
+
     abstract void abstractString();
     private void abstractPrivateString(){
         System.out.println("Saladus");
@@ -58,6 +65,8 @@ public class AbstractExamples extends AbstractExamplesMedium<String, String>{
         super.pleaseOverrideMe("Quatro");
         this.namm();
         this.namm("Some really far fetched exmaple with interfaces for this class");
+        this.changePrintMy("Normaalne");// This means, that The inherited method has all the baggage memory-wize. Even for the abstract non
+        //instantiated methods
         //this.abstractPrivateString();<- Does not allow
     }
 

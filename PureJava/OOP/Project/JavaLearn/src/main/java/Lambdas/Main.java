@@ -1,4 +1,4 @@
-package com.company;
+package Lambdas;
 
 import java.util.Arrays;
 import java.util.List;
@@ -39,9 +39,6 @@ public class Main {
 
         Main s  = new Main((string)->System.out.println(string));
         s.k.sayMessage("LAM");
-
-
-
     }
 
     interface GreetingService {
