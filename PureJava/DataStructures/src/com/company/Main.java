@@ -19,7 +19,6 @@ public class Main {
 
         //Regular Integer
         ArrayList<Integer> regular = new ArrayList<Integer>();
-
         regular.add(1);
         regular.add(2);
         System.out.println(regular);
@@ -29,7 +28,6 @@ public class Main {
         regular.remove(0);
         System.out.println(regular);
 
-        // Advanced
         regular.add(10);
         regular.add(2);
         // Comparator
@@ -38,9 +36,14 @@ public class Main {
         Collections.sort(regular , new ArrayListComparator());
         System.out.println(regular);
 
+        // FROM ARRAY TO LIST
         Integer[] k = new Integer[]{1,23,34};
         ArrayList<Integer> k1 = new ArrayList<Integer>( Arrays.asList(k));
 
+        // ITERATOR
+        // https://crunchify.com/how-to-iterate-through-java-list-4-way-to-iterate-through-loop/s
+
+        Iterator<Integer> itr =
 
     }
 
