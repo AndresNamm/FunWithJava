@@ -1,4 +1,4 @@
-package com.company;
+
 
 import javax.print.attribute.IntegerSyntax;
 import java.awt.*;
@@ -8,21 +8,22 @@ import java.util.List;
 public class Main {
 
     //ArrayList
-    public class ArrayListComparator implements Comparator<Integer>{
+    public class ArrayListComparator implements Comparator<Integer> {
         @Override
-        public int compare(Integer i1, Integer i2){
-            return i1>i2 ? -1 : (i1!=i2)? 1 :0;
+        public int compare(Integer i1, Integer i2) {
+            return i1 > i2 ? -1 : (i1 != i2) ? 1 : 0;
         }
     }
 
-    public void arrayListExample(){
+    public void arrayListExample() {
 
         //Regular Integer
         ArrayList<Integer> regular = new ArrayList<Integer>();
+        Integer[] mkmk = (Integer[]) regular.toArray();
         regular.add(1);
         regular.add(2);
         System.out.println(regular);
-        regular.set(0,10);
+        regular.set(0, 10);
         System.out.println(regular);
         regular.remove(0);
         regular.remove(0);
@@ -33,60 +34,69 @@ public class Main {
         // Comparator
         Collections.sort(regular);
         System.out.println(regular);
-        Collections.sort(regular , new ArrayListComparator());
+        Collections.sort(regular, new ArrayListComparator());
         System.out.println(regular);
 
         // FROM ARRAY TO LIST
-        Integer[] k = new Integer[]{1,23,34};
-        ArrayList<Integer> k1 = new ArrayList<Integer>( Arrays.asList(k));
+        Integer[] k = new Integer[]{1, 23, 34};
+        ArrayList<Integer> k1 = new ArrayList<Integer>(Arrays.asList(k));
 
         // ITERATOR
         // https://crunchify.com/how-to-iterate-through-java-list-4-way-to-iterate-through-loop/s
+        Iterator<Integer> itr = k1.iterator();
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
+            itr.remove();
+            System.out.println(k1.size());
+            //System.out.println(k1.);
 
-        Iterator<Integer> itr =
+        }
+        k1 = new ArrayList<Integer>(Arrays.asList(k));
+//WRONG
+//        for(Integer i : k1){
+//            k1.remove(i);
+//            System.out.println(k1.size());
+//
+//        }
 
     }
 
 
-
-
     //Maps
+    public void mapExamples() {
 
-
-    public void mapExamples(){
-
-        HashMap<Integer,Integer> ex = new HashMap<Integer,Integer>(4);
-        for(int i = 0; i<100; i++){
-            ex.put(i%4,i*100);
+        HashMap<Integer, Integer> ex = new HashMap<Integer, Integer>(4);
+        for (int i = 0; i < 100; i++) {
+            ex.put(i % 4, i * 100);
         }
 
-        Iterator<Integer> itr  = ex.keySet().iterator();
-        while(itr.hasNext()){
+        Iterator<Integer> itr = ex.keySet().iterator();
+        while (itr.hasNext()) {
             System.out.println(ex.get(itr.next()));
         }
     }
 
     //Array
 
-// This is wrong, because primitive cant implement anything
+    // This is wrong, because primitive cant implement anything
 //    public class ArrayComparator() implements Comparator<int>{
 //
 //    }
-    public void arrayExamples(){
+    public void arrayExamples() {
         Integer[] k = new Integer[10];
-        Integer[] k2 = new Integer[]{1,2,3,4};
+        Integer[] k2 = new Integer[]{1, 2, 3, 4};
         Arrays.sort(k);
-        Arrays.sort(k2, new ArrayListComparator() );
+        Arrays.sort(k2, new ArrayListComparator());
     }
 
     //Stack
 
-    public void stackExamples(){
+    public void stackExamples() {
 
         Stack<Integer> k = new Stack<Integer>();
         k.push(1);
         k.push(2);
-        while(!k.isEmpty()){
+        while (!k.isEmpty()) {
             System.out.println(k.pop());
         }
         k.pop();
@@ -108,22 +118,22 @@ public class Main {
     // inked lists receive almost no benefit from the cache.
     //Linked List
 
-    public void linkedListExamples(){
+    public void linkedListExamples() {
         LinkedList<Integer> k = new LinkedList<Integer>();
         k.add(1);
         k.add(2);
         k.remove(1);
-        k.set(0,10);
+        k.set(0, 10);
     }
 
     //Queue - USES A LINKED LIST
 
-    public void queueExamples(){
+    public void queueExamples() {
 
         Queue<Integer> k = new LinkedList<>();
         k.add(1);
         k.add(2);
-        while(!k.isEmpty()){
+        while (!k.isEmpty()) {
             System.out.println(k.remove());
         }
         k.peek();
@@ -134,33 +144,78 @@ public class Main {
 
     // PriorityQueue https://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html
     // Another tutorial https://stackoverflow.com/questions/683041/how-do-i-use-a-priorityqueue
+    // http://www.journaldev.com/1642/java-priority-queue-priorityqueue-example
 
 
-
-    public void priorityQueueExample(){
+    public void priorityQueueExample() {
         Queue<Integer> k = new PriorityQueue<Integer>(10, new ArrayListComparator());
         Queue<String> sk = new PriorityQueue<String>(10);
         k.add(1);
         k.add(2);
         sk.add("212");
-        System.out.println(k.remove());
-        System.out.println(sk.remove());
+
+        //http://www.journaldev.com/1642/java-priority-queue-priorityqueue-example
+        List<Integer> test = new LinkedList<>();
+        for (int i = 0; i < 100; i++) {
+            test.add((int) (Math.random()*1000));
+        }
+
+        Integer[] maximum = new Integer[]{-1, -1, -2};
+        ArrayList<Integer> maxNumbers = new ArrayList<Integer>(Arrays.asList(maximum));
+        Arrays.sort(maximum);
+        for (Integer i : test) {
+            if (i > maxNumbers.get(0)) {
+                maxNumbers.set(0,i);
+                Collections.sort(maxNumbers);
+            }
+        }
+
+        PriorityQueue<Integer> max3 = new PriorityQueue<>(3);
+        PriorityQueue<Integer> min3 = new PriorityQueue<>(3, Collections.reverseOrder());
+        //PRETTY MUCHS HERE I COULD DEFINE SOME HEURISTIC LIKE IN HKU AI WITH THE COLLECTION
+
+        for (int i = 0; i < 3; i++) {
+            max3.add(test.get(i));
+        }
+
+        for (Integer i : test) {
+            int temp = max3.peek();
+            if (i > temp) {
+                max3.poll();
+                max3.offer(i);// IF SOME SIZE CONSTRAINT - NOT INITIALCAPACITY
+            }
+        }
+
+        for (Integer i : test) {
+            min3.offer(i);
+            min3.add(i);
+        }
+
+
+
+
+        System.out.println("Three Largest in PriorityQueue" + max3);
+        System.out.println("Three Largest in Array" + maxNumbers);
+
     }
-
-
 
 
     //HashSet
 
 
-
-
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
 
         Main k = new Main();
         //k.arrayListExample();
-        k.mapExamples();
+        //k.mapExamples();
+        //k.arrayExamples();
+        //k.stackExamples();
+        //k.queueExamples();
+        //k.linkedListExamples();
+
+        k.priorityQueueExample();
+
 
     }
 }
