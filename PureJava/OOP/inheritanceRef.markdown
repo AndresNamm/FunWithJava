@@ -8,6 +8,7 @@
     + [Why to use them](https://dzone.com/articles/why-we-need-lambda-expressions)
 
 5. [Access Modifiers](http://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)
+6. [Abstract Classes vs Interfaces](http://docs.oracle.com/javase/tutorial/java/IandI/abstract.html) I made an example method about this as well
 
 
 
