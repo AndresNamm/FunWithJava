@@ -40,7 +40,7 @@
       <file leaf-file-name="InterfaceVsAbstract.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Inheritance/InterfaceVsAbstract.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
+            <state relative-caret-position="420">
               <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
               <folding>
                 <element signature="e#179#180#0" expanded="true" />
@@ -1023,12 +1023,12 @@
       <workItem from="1499269000495" duration="6768000" />
       <workItem from="1499936201703" duration="344000" />
       <workItem from="1499936678343" duration="27000" />
-      <workItem from="1500716495288" duration="472000" />
+      <workItem from="1500716495288" duration="525000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7611000" />
+    <option name="totallyTimeSpent" value="7664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1924" height="1056" extended-state="0" />
@@ -1203,7 +1203,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Inheritance/InterfaceVsAbstract.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
+        <state relative-caret-position="420">
           <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
           <folding>
             <element signature="e#179#180#0" expanded="true" />
