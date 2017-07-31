@@ -148,55 +148,30 @@ public class Main {
 
 
     public void priorityQueueExample() {
-        Queue<Integer> k = new PriorityQueue<Integer>(10, new ArrayListComparator());
-        Queue<String> sk = new PriorityQueue<String>(10);
-        k.add(1);
-        k.add(2);
-        sk.add("212");
 
-        //http://www.journaldev.com/1642/java-priority-queue-priorityqueue-example
-        List<Integer> test = new LinkedList<>();
-        for (int i = 0; i < 100; i++) {
-            test.add((int) (Math.random()*1000));
+        Random generator = new Random(System.nanoTime());
+
+        ArrayList<Integer> k = new ArrayList<>();
+        for(int i = 0; i< 30; i++){
+            k.add(generator.nextInt());
+        }
+        System.out.println(k);
+
+        Queue<Integer> minQ = new PriorityQueue<>(); // minQ min is in top
+        //Queue<Integer> maxQ = new PriorityQueue<>(Collections.reverseOrder());
+
+        for(Integer i : k){
+            minQ.offer(i); // Some ways safer than add;// https://stackoverflow.com/questions/2703984/what-is-the-difference-between-the-add-and-offer-methods-in-a-queue-in-java
+            //ADD - EXCPECTS TO BE ADDED
+            // OFFER - IF NOT ADDED FOR SOME RESTRICITON RETURNS FALSE, - BETTER IN FLEXIBLE ENVIRONMENT
+            //
         }
 
-        Integer[] maximum = new Integer[]{-1, -1, -2};
-        ArrayList<Integer> maxNumbers = new ArrayList<Integer>(Arrays.asList(maximum));
-        Arrays.sort(maximum);
-        for (Integer i : test) {
-            if (i > maxNumbers.get(0)) {
-                maxNumbers.set(0,i);
-                Collections.sort(maxNumbers);
-            }
+        k = new ArrayList<>();
+        while(!minQ.isEmpty()){
+            int s = minQ.poll();
+            System.out.println(s);
         }
-
-        PriorityQueue<Integer> max3 = new PriorityQueue<>(3);
-        PriorityQueue<Integer> min3 = new PriorityQueue<>(3, Collections.reverseOrder());
-        //PRETTY MUCHS HERE I COULD DEFINE SOME HEURISTIC LIKE IN HKU AI WITH THE COLLECTION
-
-        for (int i = 0; i < 3; i++) {
-            max3.add(test.get(i));
-        }
-
-        for (Integer i : test) {
-            int temp = max3.peek();
-            if (i > temp) {
-                max3.poll();
-                max3.offer(i);// IF SOME SIZE CONSTRAINT - NOT INITIALCAPACITY
-            }
-        }
-
-        for (Integer i : test) {
-            min3.offer(i);
-            min3.add(i);
-        }
-
-
-
-
-        System.out.println("Three Largest in PriorityQueue" + max3);
-        System.out.println("Three Largest in Array" + maxNumbers);
-
     }
 
 
