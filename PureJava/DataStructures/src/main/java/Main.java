@@ -18,8 +18,9 @@ public class Main {
     public void arrayListExample() {
 
         //Regular Integer
-        ArrayList<Integer> regular = new ArrayList<Integer>();
-        Integer[] mkmk = (Integer[]) regular.toArray();
+        ArrayList<Integer> regular = new ArrayList<>();
+
+        Integer[] mkmk =  regular.toArray(new Integer[regular.size()]);
         regular.add(1);
         regular.add(2);
         System.out.println(regular);
@@ -31,7 +32,7 @@ public class Main {
 
         regular.add(10);
         regular.add(2);
-        // Comparator
+        //Comparator usage example
         Collections.sort(regular);
         System.out.println(regular);
         Collections.sort(regular, new ArrayListComparator());
@@ -39,7 +40,7 @@ public class Main {
 
         // FROM ARRAY TO LIST
         Integer[] k = new Integer[]{1, 23, 34};
-        ArrayList<Integer> k1 = new ArrayList<Integer>(Arrays.asList(k));
+        ArrayList<Integer> k1 = new ArrayList<>(Arrays.asList(k));
 
         // ITERATOR
         // https://crunchify.com/how-to-iterate-through-java-list-4-way-to-iterate-through-loop/s
@@ -51,13 +52,19 @@ public class Main {
             //System.out.println(k1.);
 
         }
-        k1 = new ArrayList<Integer>(Arrays.asList(k));
-//WRONG
+        k1 = new ArrayList<>(Arrays.asList(k));
+        //WRONG
 //        for(Integer i : k1){
 //            k1.remove(i);
 //            System.out.println(k1.size());
 //
 //        }
+
+        //jOIN 2 ARRAYLIST
+        Integer[]arr = new Integer[]{8,9,10};
+        ArrayList<Integer> listTva = new ArrayList<>(Arrays.asList(arr));
+        k1.addAll((ArrayList<Integer>) listTva);
+        System.out.println(k1);
 
     }
 
@@ -182,14 +189,13 @@ public class Main {
         // write your code here
 
         Main k = new Main();
-        //k.arrayListExample();
+        k.arrayListExample();
         //k.mapExamples();
         //k.arrayExamples();
         //k.stackExamples();
         //k.queueExamples();
         //k.linkedListExamples();
-
-        k.priorityQueueExample();
+        //k.priorityQueueExample();
 
 
     }
