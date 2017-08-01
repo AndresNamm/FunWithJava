@@ -37,7 +37,8 @@ public class Main {
         System.out.println(regular);
         Collections.sort(regular, new ArrayListComparator());
         System.out.println(regular);
-
+        Collections.sort(regular, Collections.reverseOrder());
+        System.out.println(regular);
         // FROM ARRAY TO LIST
         Integer[] k = new Integer[]{1, 23, 34};
         ArrayList<Integer> k1 = new ArrayList<>(Arrays.asList(k));
