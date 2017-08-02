@@ -18,58 +18,29 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48072916">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="20">
-                  <caret line="149" column="5" lean-forward="false" selection-start-line="149" selection-start-column="5" selection-end-line="149" selection-end-column="5" />
-                  <folding>
-                    <element signature="class#ArrayListComparator#0;class#Main#0" expanded="false" />
-                    <element signature="method#mapExamples#0;class#Main#0" expanded="false" />
-                    <element signature="e#2169#2187#0" expanded="true" />
-                    <element signature="method#arrayExamples#0;class#Main#0" expanded="false" />
-                    <element signature="method#stackExamples#0;class#Main#0" expanded="false" />
-                    <element signature="e#2879#2888#0" expanded="true" />
-                    <element signature="e#3081#3189#0" expanded="false" />
-                    <element signature="method#linkedListExamples#0;class#Main#0" expanded="false" />
-                    <element signature="e#4108#4117#0" expanded="true" />
-                    <element signature="e#4496#4583#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="40" column="35" lean-forward="false" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-                  <folding>
-                    <element signature="class#ArrayListComparator#0;class#Main#0" expanded="false" />
-                    <element signature="method#mapExamples#0;class#Main#0" expanded="false" />
-                    <element signature="e#2169#2187#0" expanded="true" />
-                    <element signature="method#arrayExamples#0;class#Main#0" expanded="false" />
-                    <element signature="method#stackExamples#0;class#Main#0" expanded="false" />
-                    <element signature="e#2879#2888#0" expanded="true" />
-                    <element signature="e#3081#3189#0" expanded="false" />
-                    <element signature="method#linkedListExamples#0;class#Main#0" expanded="false" />
-                    <element signature="e#4108#4117#0" expanded="true" />
-                    <element signature="e#4496#4583#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1591">
+              <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+              <folding>
+                <element signature="class#ArrayListComparator#0;class#Main#0" expanded="false" />
+                <element signature="method#mapExamples#0;class#Main#0" expanded="false" />
+                <element signature="e#2212#2230#0" expanded="true" />
+                <element signature="method#arrayExamples#0;class#Main#0" expanded="false" />
+                <element signature="method#stackExamples#0;class#Main#0" expanded="false" />
+                <element signature="e#2922#2931#0" expanded="true" />
+                <element signature="e#3124#3232#0" expanded="false" />
+                <element signature="method#linkedListExamples#0;class#Main#0" expanded="false" />
+                <element signature="e#4151#4160#0" expanded="true" />
+                <element signature="e#4539#4626#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -938,20 +909,21 @@
       <workItem from="1501477532334" duration="411000" />
       <workItem from="1501483920167" duration="1276000" />
       <workItem from="1501509822316" duration="25000" />
-      <workItem from="1501565336974" duration="203000" />
+      <workItem from="1501565336974" duration="796000" />
+      <workItem from="1501566967131" duration="467000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10129000" />
+    <option name="totallyTimeSpent" value="11189000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -976,7 +948,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1005,14 +976,14 @@
           <folding>
             <element signature="class#ArrayListComparator#0;class#Main#0" expanded="false" />
             <element signature="method#mapExamples#0;class#Main#0" expanded="false" />
-            <element signature="e#2169#2187#0" expanded="true" />
+            <element signature="e#2212#2230#0" expanded="true" />
             <element signature="method#arrayExamples#0;class#Main#0" expanded="false" />
             <element signature="method#stackExamples#0;class#Main#0" expanded="false" />
-            <element signature="e#2879#2888#0" expanded="true" />
-            <element signature="e#3081#3189#0" expanded="false" />
+            <element signature="e#2922#2931#0" expanded="true" />
+            <element signature="e#3124#3232#0" expanded="false" />
             <element signature="method#linkedListExamples#0;class#Main#0" expanded="false" />
-            <element signature="e#4108#4117#0" expanded="true" />
-            <element signature="e#4496#4583#0" expanded="false" />
+            <element signature="e#4151#4160#0" expanded="true" />
+            <element signature="e#4539#4626#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1024,14 +995,14 @@
           <folding>
             <element signature="class#ArrayListComparator#0;class#Main#0" expanded="false" />
             <element signature="method#mapExamples#0;class#Main#0" expanded="false" />
-            <element signature="e#2169#2187#0" expanded="true" />
+            <element signature="e#2212#2230#0" expanded="true" />
             <element signature="method#arrayExamples#0;class#Main#0" expanded="false" />
             <element signature="method#stackExamples#0;class#Main#0" expanded="false" />
-            <element signature="e#2879#2888#0" expanded="true" />
-            <element signature="e#3081#3189#0" expanded="false" />
+            <element signature="e#2922#2931#0" expanded="true" />
+            <element signature="e#3124#3232#0" expanded="false" />
             <element signature="method#linkedListExamples#0;class#Main#0" expanded="false" />
-            <element signature="e#4108#4117#0" expanded="true" />
-            <element signature="e#4496#4583#0" expanded="false" />
+            <element signature="e#4151#4160#0" expanded="true" />
+            <element signature="e#4539#4626#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1043,14 +1014,14 @@
           <folding>
             <element signature="class#ArrayListComparator#0;class#Main#0" expanded="false" />
             <element signature="method#mapExamples#0;class#Main#0" expanded="false" />
-            <element signature="e#2169#2187#0" expanded="true" />
+            <element signature="e#2212#2230#0" expanded="true" />
             <element signature="method#arrayExamples#0;class#Main#0" expanded="false" />
             <element signature="method#stackExamples#0;class#Main#0" expanded="false" />
-            <element signature="e#2879#2888#0" expanded="true" />
-            <element signature="e#3081#3189#0" expanded="false" />
+            <element signature="e#2922#2931#0" expanded="true" />
+            <element signature="e#3124#3232#0" expanded="false" />
             <element signature="method#linkedListExamples#0;class#Main#0" expanded="false" />
-            <element signature="e#4108#4117#0" expanded="true" />
-            <element signature="e#4496#4583#0" expanded="false" />
+            <element signature="e#4151#4160#0" expanded="true" />
+            <element signature="e#4539#4626#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1062,14 +1033,14 @@
           <folding>
             <element signature="class#ArrayListComparator#0;class#Main#0" expanded="false" />
             <element signature="method#mapExamples#0;class#Main#0" expanded="false" />
-            <element signature="e#2169#2187#0" expanded="true" />
+            <element signature="e#2212#2230#0" expanded="true" />
             <element signature="method#arrayExamples#0;class#Main#0" expanded="false" />
             <element signature="method#stackExamples#0;class#Main#0" expanded="false" />
-            <element signature="e#2879#2888#0" expanded="true" />
-            <element signature="e#3081#3189#0" expanded="false" />
+            <element signature="e#2922#2931#0" expanded="true" />
+            <element signature="e#3124#3232#0" expanded="false" />
             <element signature="method#linkedListExamples#0;class#Main#0" expanded="false" />
-            <element signature="e#4108#4117#0" expanded="true" />
-            <element signature="e#4496#4583#0" expanded="false" />
+            <element signature="e#4151#4160#0" expanded="true" />
+            <element signature="e#4539#4626#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1081,14 +1052,14 @@
           <folding>
             <element signature="class#ArrayListComparator#0;class#Main#0" expanded="false" />
             <element signature="method#mapExamples#0;class#Main#0" expanded="false" />
-            <element signature="e#2169#2187#0" expanded="true" />
+            <element signature="e#2212#2230#0" expanded="true" />
             <element signature="method#arrayExamples#0;class#Main#0" expanded="false" />
             <element signature="method#stackExamples#0;class#Main#0" expanded="false" />
-            <element signature="e#2879#2888#0" expanded="true" />
-            <element signature="e#3081#3189#0" expanded="false" />
+            <element signature="e#2922#2931#0" expanded="true" />
+            <element signature="e#3124#3232#0" expanded="false" />
             <element signature="method#linkedListExamples#0;class#Main#0" expanded="false" />
-            <element signature="e#4108#4117#0" expanded="true" />
-            <element signature="e#4496#4583#0" expanded="false" />
+            <element signature="e#4151#4160#0" expanded="true" />
+            <element signature="e#4539#4626#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1100,33 +1071,52 @@
           <folding>
             <element signature="class#ArrayListComparator#0;class#Main#0" expanded="false" />
             <element signature="method#mapExamples#0;class#Main#0" expanded="false" />
-            <element signature="e#2169#2187#0" expanded="true" />
+            <element signature="e#2212#2230#0" expanded="true" />
             <element signature="method#arrayExamples#0;class#Main#0" expanded="false" />
             <element signature="method#stackExamples#0;class#Main#0" expanded="false" />
-            <element signature="e#2879#2888#0" expanded="true" />
-            <element signature="e#3081#3189#0" expanded="false" />
+            <element signature="e#2922#2931#0" expanded="true" />
+            <element signature="e#3124#3232#0" expanded="false" />
             <element signature="method#linkedListExamples#0;class#Main#0" expanded="false" />
-            <element signature="e#4108#4117#0" expanded="true" />
-            <element signature="e#4496#4583#0" expanded="false" />
+            <element signature="e#4151#4160#0" expanded="true" />
+            <element signature="e#4539#4626#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="40" column="35" lean-forward="false" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="class#ArrayListComparator#0;class#Main#0" expanded="false" />
             <element signature="method#mapExamples#0;class#Main#0" expanded="false" />
-            <element signature="e#2169#2187#0" expanded="true" />
+            <element signature="e#2212#2230#0" expanded="true" />
             <element signature="method#arrayExamples#0;class#Main#0" expanded="false" />
             <element signature="method#stackExamples#0;class#Main#0" expanded="false" />
-            <element signature="e#2879#2888#0" expanded="true" />
-            <element signature="e#3081#3189#0" expanded="false" />
+            <element signature="e#2922#2931#0" expanded="true" />
+            <element signature="e#3124#3232#0" expanded="false" />
             <element signature="method#linkedListExamples#0;class#Main#0" expanded="false" />
-            <element signature="e#4108#4117#0" expanded="true" />
-            <element signature="e#4496#4583#0" expanded="false" />
+            <element signature="e#4151#4160#0" expanded="true" />
+            <element signature="e#4539#4626#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1591">
+          <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
+          <folding>
+            <element signature="class#ArrayListComparator#0;class#Main#0" expanded="false" />
+            <element signature="method#mapExamples#0;class#Main#0" expanded="false" />
+            <element signature="e#2212#2230#0" expanded="true" />
+            <element signature="method#arrayExamples#0;class#Main#0" expanded="false" />
+            <element signature="method#stackExamples#0;class#Main#0" expanded="false" />
+            <element signature="e#2922#2931#0" expanded="true" />
+            <element signature="e#3124#3232#0" expanded="false" />
+            <element signature="method#linkedListExamples#0;class#Main#0" expanded="false" />
+            <element signature="e#4151#4160#0" expanded="true" />
+            <element signature="e#4539#4626#0" expanded="false" />
           </folding>
         </state>
       </provider>
