@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Solution {
     public ArrayList<ArrayList<Integer>> generateMatrix(int n) {
         // Oletame, et elemendid on olemas
@@ -42,4 +44,20 @@ public class Solution {
         }
         return ans;
     }
+
+
+    public static void main(String args[]) {
+        // Create 1 row .
+        // Start procedure, where
+        // For i = n-1 .. 1
+        // choose direction based on total count % 4
+        // For j = 2
+        // For 1..i
+        // move to next position with directional step , assign count
+
+        Solution sol = new Solution();
+        System.out.println(sol.generateMatrix(10));
+    }
+
+
 }
