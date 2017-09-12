@@ -7,7 +7,8 @@ import java.util.List;
 
 public class Main {
 
-    //ArrayList
+    //ArrayList // THIS COMPARATOR IF WE HAVE ARRAYLIST MAX 1,10  RETURS ARRAULIST WITH COMPONENTST 10,9,8 ....
+    // NORMAL COLLECTIONS SORT RETURNS 1,2,3,4... 
     public class ArrayListComparator implements Comparator<Integer> {
         @Override
         public int compare(Integer i1, Integer i2) {
