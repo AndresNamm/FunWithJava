@@ -1,3 +1,6 @@
+//PRIORITYQUEUEImplementation note: this implementation provides O(log(n)) time for the enqueuing and dequeuing methods (offer, poll, remove() and add); linear time for the remove(Object) and contains(Object) methods; and constant time for the retrieval methods (peek, element, and size). 
+//https://docs.oracle.com/javase/8/docs/api/java/util/PriorityQueue.html
+
 class MinTop{
     Double[] max = new Double[]{-100.0,-100.0,-100.0};
     Double[] min = new Double[]{100.0,100.0,100.0};

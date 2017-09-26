@@ -149,7 +149,7 @@ public class Main {
         k.set(0, 10);
     }
 
-    //Queue - USES A LINKED LIST
+    //Queue - USES A LINKED LIST UNDERLYING 
 
     public void queueExamples() {
 
@@ -168,6 +168,10 @@ public class Main {
     // PriorityQueue https://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html
     // Another tutorial https://stackoverflow.com/questions/683041/how-do-i-use-a-priorityqueue
     // http://www.journaldev.com/1642/java-priority-queue-priorityqueue-example
+
+    //PRIORITYQUEUEImplementation note: this implementation provides O(log(n)) time for the enqueuing and dequeuing methods (offer, poll, remove() and add); linear time for the remove(Object) and contains(Object) methods; and constant time for the retrieval methods (peek, element, and size). 
+    //https://docs.oracle.com/javase/8/docs/api/java/util/PriorityQueue.html
+
 
 
     public void priorityQueueExample() {
@@ -192,7 +196,7 @@ public class Main {
 
         k = new ArrayList<>();
         while(!minQ.isEmpty()){
-            int s = minQ.poll();
+            int s = minQ.poll();//LOG(N)
             System.out.println(s);
         }
     }
